@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nick's Homepage</title>
+    <link rel="icon" href="https://www.nicklyss.com/wp-content/uploads/2020/03/mercury.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+
+  <style>
+      body {
+        background-image: url("https://www.nicklyss.com/wp-content/uploads/2019/12/snow-mountains-stones-4k-s3-2880x1800-1-scaled.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      #title {
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+      }
+
+      .clockdate-wrapper {
+        background-color: #333;
+        padding: 25px;
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        margin: 0 auto;
+        opacity: 0.85;
+      }
+
+      #clock {
+        background-color: #333;
+        font-family: sans-serif;
+        font-size: 60px;
+        text-shadow: 0px 0px 1px #fff;
+        color: #fff;
+      }
+      #clock span {
+        color: #888;
+        text-shadow: 0px 0px 1px #333;
+        font-size: 30px;
+        position: relative;
+        top: -27px;
+        left: -10px;
+      }
+      #date {
+        letter-spacing: 10px;
+        font-size: 14px;
+        font-family: arial, sans-serif;
+        color: #fff;
+      }
+
+      .navfont{
+        font-size: 25px;
+
+      }
+
+      .dropdown-item{
+        border-radius: 15px;
+
+      }
+
+      .navbar {
+        border-radius: 15px;
+      }
+
+      .collapse.navbar-collapse {
+        margin:auto;
+}
+
+      .navbar-nav li:hover>.dropdown-menu {
+        display: block;
+      }
+
+      .dropdown-menu{
+        margin:0;
+
+      }
+      .row{
+        margin-left:auto;
+        margin-right:auto;
+        
+      }
+      .col-md-2{
+        flex: 0 0 20%;
+        max-width: 20%;
+
+      }
+
+      /* unvisited link */
+      .mainlinks:link {
+        color: white;
+        text-align:center;
+      }
+
+      /* visited link */
+      .mainlinks:visited {
+        color: white;
+        text-align:center;
+      }
+
+      /* mouse over link */
+      .mainlinks:hover {
+        color: rgb(141, 148, 209);
+        text-align:center;
+      }
+
+      .container:nth-of-type(2) {
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+      }
+
+  </style>
+
+<br>
+  <div class="navfont">
+  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/mercury.png" width="25" height="25" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tarkov Stuff
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" target="_blank" href="http://i.redd.it/8qxr42snhiw31.png">Ammo Chart</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" target="_blank" href="http://i.redd.it/621mvv1lc3941.jpg">Customs</a>
+            <a class="dropdown-item" target="_blank" href="http://preview.redd.it/aq2nza9h4dc41.png?width=3869&format=png&auto=webp&s=7a3fd0c877a604bff470cafb7a47993ab757cf74">Factory</a>
+            <a class="dropdown-item" target="_blank" href="http://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/0/06/InterchangeMapLorathor.jpg?version=4e8f192760249f95b85c8bf03d006638">Interchange</a>
+            <a class="dropdown-item" target="_blank" href="https://i.redd.it/5s54erf19hc21.jpg">Shoreline</a>
+            <a class="dropdown-item" target="_blank" href="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/c/c4/WofflReserveMap.png?version=977567b0c0dad8d149c267a1bd0e32a2">Reserve</a>
+          </div>
+      </ul>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        School Stuff
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" target="_blank" href="https://learn.umuc.edu/d2l/home"> UMGC Classes</a>
+        <a class="dropdown-item" target="_blank" href="http://sites.umuc.edu/library/index.cfm"> UMGC Library</a>
+        <a class="dropdown-item" target="_blank" href="https://scholar.google.com/"> Google Scholar</a>
+        <a class="dropdown-item" target="_blank" href="https://cdn.testout.com/client-v5-1-10-549/startlabsim.html"> TestOut Labsim</a>
+
+      </div>
+  </ul>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Soccer Scores
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <iframe width="400" height="600" src="https://www.fotmob.com/"></iframe>
+        </div>
+    </ul>
+  </div>
+</nav>
+</div>
+</div>
+
+
+  <body onload="startTime()">
+  
+    <br>
+    <div class="container">
+      <div class="row" style="width:70%">
+        <div class="col-md-2 col-sm-6">
+          <a class="mainlinks" target="_blank" href="https://www.youtube.com"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/youtube_logo.png" img class= "img-rounded" height="50" alt=""><br> Youtube</a>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <a class="mainlinks" target="_blank" href="https://www.reddit.com/r/soccer"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png" img class= "img-rounded" height="50" alt=""><br> /r/soccer</a>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <a class="mainlinks" target="_blank" href="https://www.reddit.com/r/politics"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png" img class= "img-rounded" height="50" alt=""><br> /r/politics</a>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <a class="mainlinks" target="_blank" href="https://app.plex.tv/desktop"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/plex-logo-e1583854397292.png" img class= "img-rounded" height="50" alt=""><br> Plex</a>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <a class="mainlinks" target="_blank" href="https://www.amazon.com"><img src="https://www.nicklyss.com/wp-content/uploads/2020/03/Amazon-logo.png" img class= "img-rounded" height="50" alt=""> <br> Amazon</a>
+        </div>
+
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="clockdate-wrapper">
+      <div id="clock">03:46:05 <span>PM</span></div>
+      <div id="date">Fri, March 6 2020</div>
+    </div>
+    
+
+  </body>
+
+  <script>
+    function startTime() {
+      var today = new Date();
+      var hr = today.getHours();
+      var min = today.getMinutes();
+      var sec = today.getSeconds();
+      ap = hr < 12 ? "<span>AM</span>" : "<span>PM</span>";
+      hr = hr == 0 ? 12 : hr;
+      hr = hr > 12 ? hr - 12 : hr;
+      //Add a zero in front of numbers<10
+      hr = checkTime(hr);
+      min = checkTime(min);
+      sec = checkTime(sec);
+      document.getElementById("clock").innerHTML =
+        hr + ":" + min + ":" + sec + " " + ap;
+
+      var months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ];
+      var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      var curWeekDay = days[today.getDay()];
+      var curDay = today.getDate();
+      var curMonth = months[today.getMonth()];
+      var curYear = today.getFullYear();
+      var date = curWeekDay + ", " + curMonth + " " + curDay + " " + curYear;
+      document.getElementById("date").innerHTML = date;
+
+      var time = setTimeout(function() {
+        startTime();
+      }, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  </script>
+
+
+</html>
