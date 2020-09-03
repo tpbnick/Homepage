@@ -1,2 +1,2 @@
 # Homepage
-Webpage that I use for my homepage.
+Webpage with quick links, js clock, weather, soccer scores.
